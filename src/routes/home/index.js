@@ -260,7 +260,12 @@ export default function HomePage() {
                 </div>
                 <div className={classes.headerBtnsWrap + " " + classes.bottomBtns}>
                     <a href={`tel:${apiData.call}`} style={{ textDecoration: "inherit", color: "inherit" }}><div className={classes.headerBtn}><img src={iconCall} alt="call" /><span>CALL US</span></div></a>
-                    <a href="Pankaj.tourtravel8@gmail.com" style={{ textDecoration: "inherit", color: "inherit" }}><div className={classes.headerBtn + " " + classes.whatsappBtn}><img style={{height:'20px', width:'auto'}} src={mailIcon} alt="call" /><span>SEND EMAIL</span></div></a>
+<a href={'mailto:Pankaj.tourtravel8@gmail.com'} style={{ textDecoration: "inherit", color: "inherit" }}>
+  <div className={`${classes.headerBtn} ${classes.whatsappBtn}`}>
+    <img style={{height: '20px', width: 'auto'}} src={mailIcon} alt="call" />
+    <span>SEND EMAIL</span>
+  </div>
+</a>
                 </div>
                 <div className={classes.headerBtnsWrap + " " + classes.bottomBtns}>
                     
