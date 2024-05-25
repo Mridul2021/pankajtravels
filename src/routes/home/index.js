@@ -142,13 +142,6 @@ export default function HomePage() {
                                 <div className={classes.cardCardImg}><img src={e.image} alt="car" /></div>
                                 <div className={classes.carCardText}>
                                     <div className={classes.carCardTitle}>{e.name}</div>
-                                    <div className={classes.cardCardInfo}>
-                                        <div className={classes.carCardPrice}>{e.costPerDay}</div>
-                                        <div>
-                                            <div>KM/L Mileage</div>
-                                            {/* <div>{e.limit} km limit</div> */}
-                                        </div>
-                                    </div>
                                     <div className={classes.aboutCar}>
                                         {e.about}
                                     </div>
