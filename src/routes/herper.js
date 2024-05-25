@@ -1,0 +1,1 @@
+export const BASEURL="https://tours-travels-backend-ik9h.onrender.com";
